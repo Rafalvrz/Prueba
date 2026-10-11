@@ -1,0 +1,269 @@
+
+/* =========================
+   General
+========================= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  color: #222;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+
+/* =========================
+   Header
+========================= */
+
+.header {
+  padding: 30px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.header h1 {
+  margin: 0 0 10px;
+  font-size: 32px;
+}
+
+.header p {
+  margin: 0;
+  color: #666;
+}
+
+
+/* =========================
+   Categories
+========================= */
+
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 24px 16px;
+}
+
+.categories button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  color: #222;
+  transition: background 0.2s, color 0.2s;
+}
+
+.categories button:hover {
+  border-color: #222;
+}
+
+.categories button.active {
+  background: #222;
+  color: #fff;
+  border-color: #222;
+}
+
+
+/* =========================
+   Catalog
+========================= */
+
+.catalog {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-section {
+  margin-bottom: 60px;
+}
+
+.product-info {
+  padding: 16px 0;
+}
+
+.product-info h2 {
+  margin: 0 0 8px;
+  font-size: 25px;
+}
+
+.product-info p {
+  margin: 0;
+  color: #666;
+}
+
+
+/* =========================
+   Main product image
+========================= */
+
+.main-image {
+  display: block;
+  width: 100%;
+  height: 420px;
+  padding: 15px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 12px;
+}
+
+
+/* =========================
+   Product carousel
+========================= */
+
+.models h3 {
+  margin: 0 0 15px;
+  font-size: 18px;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.carousel {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  gap: 12px;
+  padding: 8px 2px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* =========================
+   Thumbnails
+========================= */
+
+.thumbnail {
+  flex: 0 0 130px;
+  padding: 6px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+
+.thumbnail:hover {
+  border-color: #aaa;
+}
+
+.thumbnail.active {
+  border-color: #222;
+}
+
+.thumbnail img {
+  display: block;
+  width: 100%;
+  height: 110px;
+  object-fit: contain;
+}
+
+.thumbnail span {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  text-align: center;
+}
+
+
+/* =========================
+   Carousel navigation
+========================= */
+
+.arrow {
+  flex-shrink: 0;
+  width: 40px;
+  height: 45px;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 26px;
+}
+
+.arrow:hover {
+  background: #eee;
+}
+
+
+/* =========================
+   Footer
+========================= */
+
+.footer {
+  padding: 25px 15px;
+  text-align: center;
+  background: #fff;
+  color: #666;
+  font-size: 13px;
+}
+
+
+/* =========================
+   Accessibility
+========================= */
+
+button:focus-visible {
+  outline: 2px solid #555;
+  outline-offset: 3px;
+}
+
+
+/* =========================
+   Responsive
+========================= */
+
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 26px;
+  }
+
+  .catalog {
+    padding: 14px;
+  }
+
+  .main-image {
+    height: 300px;
+  }
+
+  .product-info h2 {
+    font-size: 22px;
+  }
+
+  .thumbnail {
+    flex-basis: 105px;
+  }
+
+  .thumbnail img {
+    height: 90px;
+  }
+
+  .carousel-container {
+    gap: 6px;
+  }
+
+  .arrow {
+    width: 32px;
+    height: 40px;
+    font-size: 22px;
+  }
+}
