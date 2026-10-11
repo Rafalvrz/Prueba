@@ -21,6 +21,30 @@ const products = [
       {
         name: "Azul",
         image: "./img/tenis3.jpg"
+      },
+      {
+        name: "Blanco",
+        image: "./img/tenis1.png"
+      },
+      {
+        name: "Negro",
+        image: "./img/tenis2.jpg"
+      },
+      {
+        name: "Azul",
+        image: "./img/tenis3.jpg"
+      },
+      {
+        name: "Blanco",
+        image: "./img/tenis1.png"
+      },
+      {
+        name: "Negro",
+        image: "./img/tenis2.jpg"
+      },
+      {
+        name: "Azul",
+        image: "./img/tenis3.jpg"
       }
     ]
   },
@@ -42,6 +66,30 @@ const products = [
       {
         name: "Playera azul",
         image: "./img/ropa2.jpg"
+      },
+      {
+        name: "Playera blanca",
+        image: "./img/ropa3.jpg"
+      },
+      {
+        name: "Playera negra",
+        image: "./img/ropa1.jpg"
+      },
+      {
+        name: "Playera azul",
+        image: "./img/ropa2.jpg"
+      },
+      {
+        name: "Playera blanca",
+        image: "./img/ropa3.jpg"
+      },
+      {
+        name: "Playera negra",
+        image: "./img/ropa1.jpg"
+      },
+      {
+        name: "Playera azul",
+        image: "./img/ropa2.jpg"
       }
     ]
   },
@@ -52,6 +100,30 @@ const products = [
     description: "Colección de mochilas.",
 
     models: [
+      {
+        name: "Mochila negra",
+        image: "./img/backpack1.jpg"
+      },
+      {
+        name: "Mochila azul",
+        image: "./img/backpack2.jpg"
+      },
+      {
+        name: "Mochila roja",
+        image: "./img/backpack3.jpg"
+      },
+      {
+        name: "Mochila negra",
+        image: "./img/backpack1.jpg"
+      },
+      {
+        name: "Mochila azul",
+        image: "./img/backpack2.jpg"
+      },
+      {
+        name: "Mochila roja",
+        image: "./img/backpack3.jpg"
+      },
       {
         name: "Mochila negra",
         image: "./img/backpack1.jpg"
